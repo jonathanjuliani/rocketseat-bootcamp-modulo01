@@ -5,7 +5,13 @@
   "repository": "git@github.com:jonathanjuliani/rocketseat-bootcamp-modulo01.git",
   "author": "Jonathan Juliani <jonathanjuliani@outlook.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
   }
 }
